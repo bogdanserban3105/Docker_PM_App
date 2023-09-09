@@ -1,0 +1,36 @@
+.inputContainer {
+    width: max-content;
+    margin: auto;
+}
+
+.inputPromt {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: Montserrat;
+    text-align: center;
+}
+
+.addItemButton {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Montserrat;
+    background-color: #1b2c4e;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+    margin: 10px;
+}
+
+input {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Montserrat;
+    border-radius: 8px;
+    border-bottom: 1px solid #282c34;
+    padding: 0.5rem 1rem;
+    margin: 10px;
+}

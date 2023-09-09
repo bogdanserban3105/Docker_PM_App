@@ -1,0 +1,30 @@
+version: '3.9'
+services:
+  # add the node-js service
+  node:
+  # Location to the node.js dockerfile
+    build: 
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: server-container 
+    ports:
+      - '4000:4000'
+    volumes:
+      - ./server:/app
+      # Ignore node_modules folder
+      - /app/node_modules
+    # Restart the container if it crashes
+    restart: always
+
+  # add the react service
+  react:
+  # Location to the react dockerfile
+    build: 
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: client-container 
+    ports:
+      - '3000:3000'
+    # Restart the container if it crashes
+    restart: always
+    stdin_open: true

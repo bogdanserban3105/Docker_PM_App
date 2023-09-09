@@ -1,0 +1,89 @@
+.itemsTable {
+    margin: 0 auto;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 400;
+    table-layout: auto;
+}
+
+.tabelHead {
+    background-color: rgb(27, 44, 78);
+    color: #fff;
+}
+
+.tabelHeadItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+}
+
+.tabelHeadFinished {
+    width: fit-content;
+}
+
+.tabelHeadID {
+    width: 75px;
+    
+}
+.tableHeadRemove {
+    width: fit-content;
+    padding: 0px 8px;
+}
+
+th:nth-child(1) {
+    width: 400px;
+    padding: 0px 8px;
+}
+
+th:nth-child(1) {
+    /* width: fit-content; */
+    padding: 0px 16px;
+}
+
+.sortIcon {
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    margin-left: 8px;
+    border-radius: 4px;
+}
+
+.searchInput {
+    position: relative;
+    width: 180px;
+}
+
+.searchBar {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 8px 0px;
+    padding-right: 32px;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.item {
+    margin-right: 4px;
+}
+
+.randomCircleIAmRequiredToDisplay {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 8px auto;
+}
+
+.unwantedText {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-family: Montserrat;
+    text-align: center;
+}

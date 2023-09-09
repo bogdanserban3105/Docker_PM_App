@@ -1,0 +1,11 @@
+.itemContent {
+    word-break: break-all;
+}
+
+td {
+    padding: 8px;
+}
+
+.crossed {
+    text-decoration: line-through;
+}

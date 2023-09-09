@@ -1,0 +1,37 @@
+.body{
+    background-image: linear-gradient(to right bottom, #3f65a1, #3a5d92, #365684, #324e76, #2f4768);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+.card {
+  width: 400px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.4);
+  
+  height: 450px;
+  
+}
+
+.form {
+  padding: 10px;
+  height: 300px;
+}
+
+.form input {
+  margin-bottom: 12px;
+  border-radius: 3px;
+}
+
+.form input:focus {
+  box-shadow: none;
+}
+
+.form button {
+  margin-top: 20px;
+}
