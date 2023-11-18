@@ -1,12 +1,29 @@
-# docker-react
-Acest repo foloseste tehnologii precum ExpressJS, React and Docker.
+# Task Manager App
 
-## React side
-Aceasta se afla in folderul de Client. Reprezinta frontend acestui proiect
+## Technologies Used
+- **React:** JavaScript library for building attractive and interactive user interfaces.
+- **Node.js:** JavaScript runtime environment for building the backend server.
+- **MongoDB:** NoSQL database for efficient storage of task and user-related data.
+- **Docker Engine:** Virtualization platform for packaging and delivering the application as portable containers.
 
-## ExpressJS side
-Aceasta se afla in folderul de Server. Reprezinta backend acestui proiect si comunicarea cu MongoDB.
+## Key Features
+1. **Display Tasks:** Load and display the current list of tasks.
+2. **Add Task:** Users can add a new task with relevant details.
+3. **Update Status:** Change the status of tasks as they are completed.
+4. **Delete Task:** Remove outdated or completed tasks.
+5. **Email Submission:** Option to send task details via email.
+6. **Download to Email:** Save and send the task list via email.
 
+## Getting Started
+To run the project locally, follow these steps:
+
+### Prerequisites
+- Node.js and npm installed
+- MongoDB installed and running
+- Docker installed
+![image](https://github.com/bogdanserban3105/Docker_PM_App/assets/114236989/9d3f5c3f-649e-442e-be48-0b7da79f36dc)
+
+### Installation
 # How to run?
 ### Singular
 daca doresti sa rulezi doar client side foloseste
